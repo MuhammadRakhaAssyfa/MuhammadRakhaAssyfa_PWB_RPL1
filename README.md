@@ -7,3 +7,5 @@ KELOMPOK 5
 5. Muhammad Wildan Ladunny
 6. Muhammad Rakha Assyfa
 7. Yunita Handayani
+
+Membahas tentang Konsep HTML, dengan tugas yang dikumpulkan codingan dari konsep HTML.
