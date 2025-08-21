@@ -1,84 +1,103 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
 body {
-    background-color: powderblue;
+    background-color: rgb(202, 246, 252);
+    line-height: 1.6;
+    padding: 20px;
 }
 
-/* ini bagian index.html ygy */
-.bdjudul {
-    border: 2px solid gray;
-    border-radius: 8px;
-    background-color: aquamarine;
-}
-
-h1 {
-    font-family: system-ui, 'roboto';
-    text-align: center;
-    color: black;
-}
-
-h3 {
-    font-family: sans-serif;
-}
-
+/* index */
 .links {
-         list-style-type: none;
-         display: flex;
-         gap: 15px;
-         background-color: aquamarine;
-         padding: 10px;
-         border: 2px solid gray;
-         border-radius: 5px;
-}
-
-.ibody a {
-    text-decoration: none;
-    color: black;
-}
-
-.ibody p {
-    font-family: sans-serif;
-}
-
-.ibody .ngisi {
-        color: blue;
-} 
-
-.ngisi:hover {
-    color: darkblue;
-    text-decoration: underline;
-}
-
-/* kalau ini bagian yg form */
-.fbody h2 {
-    text-align: center;
-    border: 2px solid gray;
-    border-radius: 8px;
-    background-color: aquamarine;
-    padding : 5px;
-    font-family: system-ui;
-}
-
-.fbody h4 {
-    font-family: sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.fbody form {
-  width: 400px;
-  margin: 20px auto;
-  background: aquamarine;
-  padding: 20px;
-  border: 2px solid gray;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  background: teal;
+  padding: 10px;
   border-radius: 8px;
+  justify-content: center;
 }
 
-.fbody label {
-    font-family: sans-serif;
-    font-weight: bold;
+.links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
-.fbody input[type="text"] {
-    width: 96%;
-    padding: 5px;
-    margin: 6px 0 0 0;
+.links li a:hover {
+  color: aquamarine;
+}
+
+.bdjudul {
+  text-align: center;
+}
+
+.kotak {
+  background: white;
+  padding: 20px;
+  border: 1px solid gray ;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+a.ngisi {
+  color: blue;
+  text-decoration: none;
+}
+
+a.ngisi:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+/* form */
+h2, h4 {
+  text-align: center;
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form input[type="text"], form select, form textarea {
+  width: 97%;
+  padding: 8px 10px;
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+form input[type="submit"] {
+  background: teal;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+  background: rgb(1, 54, 1);
+}
+
+/* welkam */
+.wbody h1, .wbody h3 {
+    text-align: center;
+}
+
+/* data */
+table {
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+td {
+    text-align: center;
 }

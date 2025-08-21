@@ -15,19 +15,19 @@
         <h4>Sign Up Form</h4>
         <form action="welcome.html">
             <label for="nama">First name :</label><br><br>
-            <input type="text" id="nama" name="nama"><br><br>
+            <input type="text" id="nama" name="nama" required><br><br>
             <label for="nama">Last name :</label><br><br>
-            <input type="text" id="nama2" name="nama2">
+            <input type="text" id="nama2" name="nama2" required>
             <br><br>
 
             <label for="gender">Gender</label><br><br>
-            <input type="radio" id="gender" name="Male">
+            <input type="radio" id="male" name="gender" required>
             <label for="gender">Male</label><br>
-            <input type="radio" id="gender" name="Female">
+            <input type="radio" id="female" name="gender">
             <label for="gender">Female</label><br><br>
 
             <label for="negara">Nationality</label><br><br>
-            <select id="negara" name="negara">
+            <select id="negara" name="negara" required>
                <option value="" disabled selected hidden>Country</option>
                <option value="indonesia">Indonesia</option>
                <option value="amerika">Amerika</option>  
@@ -43,7 +43,7 @@
             <label for="bahasa">Other</label><br><br>
 
             <label for="tulisan">Bio</label><br><br>
-            <textarea id="bio" name="bio" rows="15" clos="30"></textarea>
+            <textarea id="bio" name="bio" rows="15" clos="30" required></textarea>
             <br>
             <input type="submit" value="Sign Up">
         
