@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(208, 245, 250);
+}
+
+h1 {
+    background-color: antiquewhite;
+    font-family: system-ui, 'roboto';
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+.links {
+         list-style-type: none;
+         display: flex;
+         gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
