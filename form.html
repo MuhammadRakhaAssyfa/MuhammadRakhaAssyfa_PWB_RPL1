@@ -2,8 +2,15 @@
 <html>
     <head>
         <title>FORM</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body class="fbody">
+        <ol class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="welcome.html">Welcome</a></li>
+            <li><a href="data.html">Data</a></li>
+        </ol>
         <h2>Buat Account Baru</h2>
         <h4>Sign Up Form</h4>
         <form action="welcome.html">
@@ -21,6 +28,7 @@
 
             <label for="negara">Nationality</label><br><br>
             <select id="negara" name="negara">
+               <option value="" disabled selected hidden>Country</option>
                <option value="indonesia">Indonesia</option>
                <option value="amerika">Amerika</option>  
                <option value="inggris">Inggris</option>
