@@ -94,8 +94,6 @@ form input[type="submit"]:hover {
 table {
   border-collapse: collapse;
   background: white;
-  border-radius: 8px;
-  overflow: hidden;
 }
 
 td {
